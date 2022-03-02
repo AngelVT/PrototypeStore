@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Tab_Icon.png">
+    <title>SeductionMX &#8747; Procesando</title>
+    <title>Loading</title>
+    <style>
+body{
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box{
+    display: flex;
+    position: relative;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation: effect 1s linear infinite alternate;
+    transform: scale(0);
+    background: #f563ac;
+}
+
+.box span:nth-child(1){
+    animation-delay: 0s;
+}
+.box span:nth-child(2){
+    animation-delay: 1s;
+}
+.box span:nth-child(3){
+    animation-delay: 2s;
+}
+.box span:nth-child(4){
+    animation-delay: 3s;
+}
+.box span:nth-child(5){
+    animation-delay: 4s;
+}
+@keyframes effect{
+    100%{
+        transform: scale(1);
+        background: #DB1B7B;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="shortcut icon" href="img/Tab_Icon.png">
+    <title>SeductionMX &#8747; Compra</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar_search">
+            <a href="#"><img src="img/SeductionMX_Logo.png" class="navbar_brand"></a>
+
+            <div class="logreg">
+                <a href="login.html"><img src="img/user.png" style="height: 50px;"></a>
+            </div>
+            <div class="navbar_cbtn" id="menu_mobile">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="navbar_searchbar_container" id="navsearch">
+                <form>
+                    <input class="navbar_searchbar" type="search" placeholder="Search" aria-label="Search">
+                    <button class="navbar_button" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+        <div class="navbar_nav">
+            <ul class="navbar_menu" id="navelements">
+                <li class="navbar_item">
+                    <a href="cart.html" class="navbar_link">Volver al carrito</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#" class="navbar_link" onclick="check()">Ver Pedidos</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#" class="navbar_link">Lenceria</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#" class="navbar_link">A la moda</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#" class="navbar_link">Tallas grandes</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#" class="navbar_link">Tallas pequeñas</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="form_area" id="formC">
+        <div class="form_container">
+            <form action="">
+                <div id="paymentmethod">
+                    <h1>Metodo de Pago</h1>
+                    <input type="radio" name="method" id="debit" value="1"><label for="debit"> Tarjeta de Debito</label>
+                    <br>
+                    <input type="radio" name="method" id="credit" value="2"><label for="credit"> Tarjeta de
+                        credito</label>
+                    <br>
+                    <input type="radio" name="method" id="sepei" value="3"><label for="spei"> Transferencia
+                        Bancaria</label>
+                </div>
+                <div id="deliverydata" class="hide">
+                    <h1>Datos de Envio</h1>
+                    <div class="name_register">
+                        <div>
+                            <label for="state">Estado<input class="field" type="text" id="state"
+                                    name="deliverdata"></label>
+                        </div>
+                        <div>
+                            <label for="city">Ciudad<input class="field" type="text" id="city"
+                                    name="deliverdata"></label>
+                        </div>
+                    </div>
+                    <label for="address">Dirección de envio<input class="field" type="text" id="address"
+                            name="deliverdata"></label>
+                    <label for="directions">Referencias</label>
+                    <textarea class="field" name="deliverdata"></textarea>
+                </div>
+                <div id="debitcarddata" class="hide" name="payMth">
+                    <h1>Pago con Tarjeta</h1>
+                    <label for="name">Nombre<input class="field" type="text" id="namecard" name="debitcarddata"></label>
+                    <label for="cardnumber">Numero de Tarjeta<input class="field" type="text" id="cardnumber" name="debitcarddata"></label>
+                    <div class="name_register">
+                        <div>
+                            <label for="expdate">Expiración<input class="field" type="text" id="expdate" name="debitcarddata"></label>
+                        </div>
+                        <div>
+                            <label for="cvv">CVV<input class="field" type="text" id="cvv" name="debitcarddata"></label>
+                        </div>
+                    </div>
+                </div>
+                <div id="creditcarddata" class="hide" name="payMth">
+                    <h1>Pago con Tarjeta de Credito</h1>
+                    <label for="name">Nombre<input class="field" type="text" id="namecard" name="creditcarddata"></label>
+                    <label for="cardnumber">Numero de Tarjeta<input class="field" type="text" id="cardnumber" name="creditcarddata"></label>
+                    <div class="name_register">
+                        <div>
+                            <label for="expdate">Expiración<input class="field" type="text" id="expdate" name="creditcarddata"></label>
+                        </div>
+                        <div>
+                            <label for="cvv">CVV<input class="field" type="text" id="cvv" name="creditcarddata"></label>
+                        </div>
+                    </div>
+                </div>
+                <div id="speit" class="hide">
+                    <h1>Pago por Transferencia</h1>
+                    <p style="text-align: left;">Paga utilizando tu aplicación de banca móvil o banca por Internet.
+                        Tienes un tiempo máximo de 24
+                        horas para realizar tu pago. Entendemos que algunos bancos pueden tomar tiempo para registrar
+                        una nueva cuenta, por lo tanto, te sugerimos que pagues ahora.Dependiendo del banco del que
+                        vayas a hacer la transferencia, el nombre del Banco destino puede aparecer distinto:</p>
+                    <p style="text-align: left;"> &bull; General: STP / Sist Transf y Pagos / Sistema de Transferencia y
+                        Pago.</p>
+                    <p style="text-align: left;"> &bull; HSBC: 646-STP.</p>
+                    <p style="text-align: left;"> &bull; Banamex: Sist Transf y Pagos.</p>
+                    <p style="text-align: left;"> &bull; Bancomer: STP (Sistema de Transferencia y Pagos).</p>
+                    <p style="text-align: left;"> &bull; IXE-Banorte: STP.</p>
+                    <p style="text-align: left;"><b>Necesitarás los siguientes detalles para pagar tu pedido:</b></p>
+                    <p style="text-align: left;"> &bull; CLABE: 646180155533658899</p>
+                    <p style="text-align: left;"> &bull; BENEFICIARIO: Angel Velazquez.</p>
+                    <p style="text-align: left;"> &bull; CONCEPTO: 261559126</p>
+                    <p style="text-align: left;"> &bull; MONTO: $10,000.00</p>
+                </div>
+                <div id="orderdata" class="hide">
+                    <h1>Información de Pedido</h1>
+                    <p style="text-align: left;">Lorem ipsum dolor sit amet consectetur adipisicing elit. At totam sequi laborum voluptatibus,
+                        pariatur, earum nulla nobis ipsum, dolorum numquam excepturi quod eius. Voluptatem recusandae,
+                        minus et accusantium unde ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                        quod debitis nihil eos aperiam libero sequi architecto dicta, at dolore excepturi, fugit porro
+                        maxime sunt dignissimos dolores consequatur iure ipsa? Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Sunt fugit sint deleniti laudantium laborum qui esse impedit id, reprehenderit
+                        quam? Perferendis nulla eligendi iste itaque exercitationem, ipsa voluptatibus sequi
+                        praesentium.</p>
+                </div>
+                <div id="success" class="hide">
+                    <h1>Compra exitosa</h1>
+                </div>
+            </form>
+            <div class="btn_container">
+                <button id="prev" onclick="prev()" class="hide">&#10094; Anterior</button>
+                <button id="confirm" class="hide" onclick="confirmed()">Confirmar Compra</button>
+                <button id="next" onclick="next()">Siguiente &#10095;</button>
+                <a href="shop.html"><button id="back" class="hide">Regresar a Tienda</button></a>
+            </div>
+        </div>
+    </section>
+    <footer class="foot">
+        <div class="foot_section">
+            <h4>Contactanos</h4>
+            <div class="foot_subsection">
+                <a href="#"><img src="img/WA.png"></a>
+                <p><a href="#">55 3100 2642</a></p>
+            </div>
+            <div class="foot_subsection">
+                <a href="#"><img src="img/email.png"></a>
+                <p><a href="#">email@seduction.mx</a></p>
+            </div>
+        </div>
+        <div class="foot_section">
+            <h4>Redes Sociales</h4>
+            <div class="foot_subsection">
+                <a href="#"><img src="img/IG.png"></a>
+                <p><a href="#">@seductionmx</a></p>
+            </div>
+            <div class="foot_subsection">
+                <a href="#"><img src="img/FB.png"></a>
+                <p><a href="#">@seductionmx</a></p>
+            </div>
+            <div class="foot_subsection">
+                <a href="#"><img src="img/TW.png"></a>
+                <p><a href="#">@seductionmx</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/navbar_btn.js"></script>
+    <script src="js/paymentcontroller.js"></script>
+</body>
+
+</html>
