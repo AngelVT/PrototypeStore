@@ -7,6 +7,7 @@ var appShellFiles = [
     '/PrototypeStore/payment.html',
     '/PrototypeStore/product.html',
     '/PrototypeStore/shop.html',
+    '/PrototypeStore/img/Tab_Icon.png',
     /*'/PrototypeStore/js/couter.js',
     '/PrototypeStore/js/empty_detection.js',
     '/PrototypeStore/js/image_swaper.js',
