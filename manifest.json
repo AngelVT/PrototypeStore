@@ -10,37 +10,7 @@
         {
             "src": "img/icons/Tab_Icon.png",
             "type": "image/png",
-        "sizes": "72x72"
-        },
-        {
-            "src": "img/icons/Tab_Icon.png",
-            "type": "image/png",
-            "sizes": "96x96"
-        },
-        {
-            "src": "img/icons/Tab_Icon.png",
-            "type": "image/png",
-            "sizes": "128x128"
-        },
-        {
-            "src": "img/icons/Tab_Icon.png",
-            "type": "image/png",
-            "sizes": "144x144"
-        },
-        {
-            "src": "img/icons/Tab_Icon.png",
-            "type": "image/png",
-            "sizes": "192x192"
-        },
-        {
-            "src": "img/icons/Tab_Icon.png",
-            "type": "image/png",
-            "sizes": "384x384"
-        },
-        {
-            "src": "img/icons/Tab_Icon.png",
-            "type": "image/png",
-            "sizes": "512x512"
+        "sizes": "76x76"
         }
     ]
 }
