@@ -7,7 +7,7 @@ var appShellFiles = [
     '/PrototypeStore/payment.html',
     '/PrototypeStore/product.html',
     '/PrototypeStore/shop.html',
-    '/PrototypeStore/img/Tab_Icon.png',
+    '/PrototypeStore/img/TabIcon.png',
     /*'/PrototypeStore/js/couter.js',
     '/PrototypeStore/js/empty_detection.js',
     '/PrototypeStore/js/image_swaper.js',
@@ -51,7 +51,7 @@ self.addEventListener('fetch', e => {
 
     const respuesta = caches.open('box').then(cache => {
 
-        fetch(e.request).then(newRes =>
+        fetch(e.request).then(newsRes =>
             cache.put(e.request, newsRes));
 
         return cache.match(e.request);
