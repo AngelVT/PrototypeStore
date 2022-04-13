@@ -2,7 +2,7 @@ var appShellFiles = [
     //'/Negocio/styles.css',
     //'/Negocio/fonts.css',
     //'/Negocio/fonts/Roboto-Thin.ttf',
-    'index.html',
+    //'index.html',
     /*'/Negocio/cart.html',
     '/Negocio/payment.html',
     '/Negocio/product.html',
