@@ -43,7 +43,7 @@ self.addEventListener('install', event => {
 
     event.waitUntil(endInstall);
 
-    //self.skipWaiting();
+    self.skipWaiting();
 });
 
 self.addEventListener('fetch', e => {
