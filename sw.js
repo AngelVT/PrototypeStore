@@ -1,8 +1,8 @@
-/*var appShellFiles = [
-    //'/Negocio/styles.css',
-    //'/Negocio/fonts.css',
-    //'/Negocio/fonts/Roboto-Thin.ttf',
-    'Negocio/index.html',
+var appShellFiles = [
+    '/Negocio/styles.css',
+    '/Negocio/fonts.css',
+    '/Negocio/fonts/Roboto-Thin.ttf',
+    '/Negocio/index.html',
     '/Negocio/cart.html',
     '/Negocio/payment.html',
     '/Negocio/product.html',
@@ -33,7 +33,7 @@
     '/Negocio/img/TW.png',
     '/Negocio/img/user.png',
     '/Negocio/img/WA.png',
-];*/
+];
 
 self.addEventListener('install', event => {
 
