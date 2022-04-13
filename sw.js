@@ -35,6 +35,10 @@ var appShellFiles = [
     '/Negocio/img/WA.png',
 ];
 
+self.addEventListener('activate', event => {
+    console.log("Hola desde la Activación del Service Worker UTVAM");
+});
+
 self.addEventListener('install', event => {
 
     const endInstall = caches.open('box').then(cache => {
@@ -58,4 +62,16 @@ self.addEventListener('fetch', e => {
     });
 
     e.respondWith(respuesta);
+});
+
+self.addEventListener('sync', event => {
+
+    console.log("Recuperando conexion....");
+
+});
+
+self.addEventListener('push', event => {
+
+    console.log("Notificado....");
+
 });
