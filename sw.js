@@ -2,13 +2,11 @@ var appShellFiles = [
     '/Negocio/styles.css',
     '/Negocio/fonts.css',
     '/Negocio/fonts/Roboto-Thin.ttf',
-
     '/Negocio/index.html',
     '/Negocio/cart.html',
     '/Negocio/payment.html',
     '/Negocio/product.html',
     '/Negocio/shop.html',
-
     '/Negocio/js/couter.js',
     '/Negocio/js/empty_detection.js',
     '/Negocio/js/image_swaper.js',
@@ -16,7 +14,6 @@ var appShellFiles = [
     '/Negocio/js/navbar_btn.js',
     '/Negocio/js/paymentcontroller.js',
     '/Negocio/js/slider.js',
-
     '/Negocio/img/bg.jpg',
     '/Negocio/img/bgp.jpg',
     '/Negocio/img/card.jpg',
@@ -46,19 +43,19 @@ self.addEventListener('install', event => {
 
     event.waitUntil(endInstall);
 
-    //self.skipWaiting();
+    self.skipWaiting();
 });
 
-self.addEventListener('fetch', ev => {
+self.addEventListener('fetch', e => {
 
     const respuesta = caches.open('box').then(cache => {
 
-        fetch(ev.request).then(newRes =>
-            cache.put(ev.request, newRes));
+        fetch(e.request).then(newRes =>
+            cache.put(e.request, newsRes));
 
-        return cache.match(ev.request);
+        return cache.match(e.request);
 
     });
 
-    ev.respondWith(respuesta);
+    e.respondWith(respuesta);
 });
