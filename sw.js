@@ -30,7 +30,6 @@ var appShellFiles = [
     '/PrototypeStore/img/FB.png',
     '/PrototypeStore/img/IG.png',
     '/PrototypeStore/img/SeductionMX_Logo.png',
-    '/PrototypeStore/img/Tab_icon.png',
     '/PrototypeStore/img/TW.png',
     '/PrototypeStore/img/user.png',
     '/PrototypeStore/img/WA.png',
