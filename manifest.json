@@ -2,7 +2,7 @@
     "short_name": "Seduction MX",
     "name": "Instalando PWA",
     "start_url": "index.html",
-    "background_color": "#f563ac",
+    "background_color": "#131313",
     "theme_color": "#131313",
     "display": "standalone",
     "orientation": "portrait",
