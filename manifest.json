@@ -1,0 +1,16 @@
+{
+    "short_name": "Kross",
+    "name": "Desplegando mi PWA",
+    "start_url": "index.html",
+    "background_color": "#41228e",
+    "theme_color": "#41228e",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "img/Tap_icon.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
