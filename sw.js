@@ -8,7 +8,7 @@ var appShellFiles = [
     '/PrototypeStore/product.html',
     '/PrototypeStore/shop.html',
     '/PrototypeStore/img/TabIcon.png',
-    '/PrototypeStore/js/couter.js',
+    '/PrototypeStore/js/counter.js',
     '/PrototypeStore/js/empty_detection.js',
     '/PrototypeStore/js/image_swaper.js',
     '/PrototypeStore/js/nav_manager.js',
