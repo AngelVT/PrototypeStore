@@ -38,7 +38,7 @@ var appShellFiles = [
 self.addEventListener('install', event => {
 
     const endInstall = caches.open('box').then(cache => {
-        return cache.addAll();
+        return cache.addAll(appShellFiles);
     });
 
     event.waitUntil(endInstall);
