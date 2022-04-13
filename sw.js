@@ -14,7 +14,7 @@ var appShellFiles = [
     '/PrototypeStore/js/nav_manager.js',
     '/PrototypeStore/js/navbar_btn.js',
     '/PrototypeStore/js/paymentcontroller.js',
-    '/PrototypeStore/js/slider.js',
+    '/PrototypeStore/js/slider.js',*/
     '/PrototypeStore/img/bg.jpg',
     '/PrototypeStore/img/bgp.jpg',
     '/PrototypeStore/img/card.jpg',
@@ -33,7 +33,7 @@ var appShellFiles = [
     '/PrototypeStore/img/Tab_icon.png',
     '/PrototypeStore/img/TW.png',
     '/PrototypeStore/img/user.png',
-    '/PrototypeStore/img/WA.png',*/
+    '/PrototypeStore/img/WA.png',
 ];
 
 self.addEventListener('install', event => {
