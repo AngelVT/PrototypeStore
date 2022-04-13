@@ -3,7 +3,6 @@ var appShellFiles = [
     '/PrototypeStore/fonts.css',
     '/PrototypeStore/fonts/Roboto-Thin.ttf',
     '/PrototypeStore/index.html',
-    '/PrototypeStore/index.html',
     '/PrototypeStore/cart.html',
     '/PrototypeStore/payment.html',
     '/PrototypeStore/product.html',
