@@ -2,7 +2,7 @@ var appShellFiles = [
     '/styles.css',
     '/fonts.css',
     '/fonts/Roboto-Thin.ttf',
-    '/index.html',
+    '/PrototypeStore-v0.1.0/index.html',
     '/cart.html',
     '/payment.html',
     '/product.html',
