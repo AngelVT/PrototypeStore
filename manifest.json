@@ -8,37 +8,37 @@
     "orientation": "portrait",
     "icons": [
         {
-            "src": "img/Tab_Icon.png",
+            "src": "img/icons/Tab_Icon.png",
             "type": "image/png",
         "sizes": "72x72"
         },
         {
-            "src": "img/Tab_Icon.png",
+            "src": "img/icons/Tab_Icon.png",
             "type": "image/png",
             "sizes": "96x96"
         },
         {
-            "src": "img/Tab_Icon.png",
+            "src": "img/icons/Tab_Icon.png",
             "type": "image/png",
             "sizes": "128x128"
         },
         {
-            "src": "img/Tab_Icon.png",
+            "src": "img/icons/Tab_Icon.png",
             "type": "image/png",
             "sizes": "144x144"
         },
         {
-            "src": "img/Tab_Icon.png",
+            "src": "img/icons/Tab_Icon.png",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "img/Tab_Icon.png",
+            "src": "img/icons/Tab_Icon.png",
             "type": "image/png",
             "sizes": "384x384"
         },
         {
-            "src": "img/Tab_Icon.png",
+            "src": "img/icons/Tab_Icon.png",
             "type": "image/png",
             "sizes": "512x512"
         }
