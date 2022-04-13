@@ -51,7 +51,7 @@ self.addEventListener('fetch', e => {
 
     const respuesta = caches.open('box').then(cache => {
 
-        fetch(e.request).then(newsRes =>
+        fetch(e.request).then(newRes =>
             cache.put(e.request, newsRes));
 
         return cache.match(e.request);
